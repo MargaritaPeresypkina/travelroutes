@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  height: 90vh;
+  padding: 30vh 0;
+  font-family: "Geologica", sans-serif;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.error {
+  font-size: 1.5rem;
+}
+
+.link {
+  font-size: 1.2rem;
+  color: blue;
+  text-decoration: underline;
+}
+

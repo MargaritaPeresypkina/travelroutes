@@ -1,0 +1,61 @@
+.button {
+  background-color: #1c1816; 
+  color: #fff; 
+  padding: 8px 22px;
+  border: none;
+  border-radius: 7px;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: "Geologica", sans-serif;
+  margin-right: 60px;
+  box-shadow: 0 0 4px rgb(255, 255, 255);
+}
+
+.button:hover {
+  box-shadow: 0 0 7px rgb(255, 255, 255);
+}
+
+@media screen  and (max-width: 480px) {
+  .button {
+    padding: 5px 12px;
+    border-radius: 3px;
+
+    font-size: 9px;
+    margin-right: 20px;
+  }
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+  .button {
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .button {
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+  .button {
+    background-color: #1c1816; 
+    color: #fff;
+    padding: 8px 22px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: "Geologica", sans-serif;
+    margin-right: 60px;
+    box-shadow: 0 0 4px rgb(255, 255, 255);
+  }
+}

@@ -1,0 +1,682 @@
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.374);
+}
+
+.content {
+  position: relative;
+  text-align: left;
+  color: #ffffff;
+  padding: 200px 220px 110px;
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.content-h1 {
+  font-weight: 500;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+.content-idea-h1 {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #000000;
+  font-weight: 600;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+.content-p {
+  font-weight: 200;
+  font-size: 20px;
+  color: #f6fbe2;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 60px;
+  gap: 10px;
+}
+
+.ideablock {
+  padding: 50px 220px 50px;
+  background-color: #f0ebd8;
+}
+
+.ideas {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.popularRoutes {
+  padding: 70px 220px 30px;
+  background-color: #fdfffc;
+  border-radius: 10px;
+  font-family: "Geologica", sans-serif;
+}
+
+.spacer {
+  height: 3px;
+  background-color: rgba(13, 19, 33, 0);
+  border: 2px dashed #0d1321;
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+
+.popularRoutes-h1 {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ba2d0b;
+  font-weight: 600;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+.routeImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.largeRoute {
+  position: relative;
+}
+
+.largeRoute img {
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.smallRoutes {
+  position: relative;
+}
+
+.smallRoutes img {
+  width: 300px; 
+  height: auto;
+  border-radius: 10px;
+}
+
+.routeSmallDescription {
+  position: absolute;
+  top: 140px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 4px;
+}
+.routeLargeDescription {
+  position: absolute;
+  top: 225px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 4px;
+}
+
+.routeTitle {
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+}
+.routeLargeTitle {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.routeText {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.routeLargeText {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.routeTextDescription {
+  margin: 30px 0px 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.guideBlock {
+  background-color: #f0ebd8;
+  padding: 60px 220px 30px;
+  margin-top: 20px;
+  font-family: "Geologica", sans-serif;
+  color: #000000;
+}
+
+.guide-intro {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.guide-steps {
+  list-style-type: decimal;
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.guide-steps li {
+  margin-bottom: 10px;
+}
+
+.guid-h1 {
+  color: #0d1321;
+  font-size: 42px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.spacer-red {
+  height: 3px;
+  background-color: #0d132100;
+  border: 2px dashed #ba2d0b;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 60px 50px 70px;
+  }
+
+  .content-h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .content-idea-h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .content-p {
+    font-size: 12px;
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+
+  .ideablock {
+    padding: 50px 50px 0px 50px;
+  }
+
+  .ideas {
+    flex-direction: column;
+  }
+
+  .popularRoutes {
+    padding: 30px 50px 20px;
+  }
+
+  .spacer {
+    height: 2px;
+    border: 2px dashed #0d1321;
+    margin-bottom: 30px;
+  }
+
+  .popularRoutes-h1 {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+
+  .routeImages {
+    flex-direction: column;
+  }
+
+  .largeRoute img {
+    width: 220px;
+  }
+
+  .smallRoutes img {
+    width: 220px; 
+  }
+
+  .routeSmallDescription {
+    top: 80px;
+    padding: 7px;
+  }
+  .routeLargeDescription {
+    top: 80px;
+    padding: 7px;
+  }
+
+  .routeTitle {
+    font-size: 16px;
+  }
+
+  .routeLargeTitle {
+    font-size: 16px;
+  }
+
+  .routeText {
+    font-size: 12px;
+  }
+
+  .routeLargeText {
+    font-size: 12px;
+  }
+
+  .routeTextDescription {
+    margin: 15px 0px 0;
+    font-size: 12px;
+  }
+
+  .guideBlock {
+    padding: 30px 50px 18px;
+    margin-top: 15px;
+  }
+
+  .guide-intro {
+    font-size: 16px;
+  }
+
+  .guide-steps {
+    padding-left: 15px;
+    font-size: 12px;
+  }
+
+  .guid-h1 {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+
+  .spacer-red {
+    height: 2px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .content {
+    padding: 80px 60px 50px;
+  }
+
+  .content-h1 {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+
+  .content-idea-h1 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  .content-p {
+    font-size: 14px;
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+
+  .ideablock {
+    padding: 50px 60px 0px;
+  }
+
+  .ideas {
+    flex-direction: column;
+  }
+
+  .popularRoutes {
+    padding: 30px 60px 20px;
+  }
+
+  .spacer {
+    height: 2px;
+    border: 2px dashed #0d1321;
+    margin-bottom: 30px;
+  }
+
+  .popularRoutes-h1 {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+
+  
+  .routeImages {
+    flex-direction: column;
+  }
+
+  .largeRoute img {
+    width: 360px;
+  }
+
+  .smallRoutes img {
+    width: 360px; 
+  }
+
+  .routeSmallDescription {
+    top: 150px;
+    padding: 10px;
+  }
+  .routeLargeDescription {
+    top: 150px;
+    padding: 10px;
+  }
+
+  .routeTitle {
+    font-size: 20px;
+  }
+
+  .routeLargeTitle {
+    font-size: 20px;
+  }
+
+  .routeText {
+    font-size: 15px;
+  }
+
+  .routeLargeText {
+    font-size: 15px;
+  }
+
+  .routeTextDescription {
+    margin: 15px 0px 0;
+    font-size: 14px;
+  }
+
+  .guideBlock {
+    padding: 30px 60px 18px;
+    margin-top: 15px;
+  }
+
+  .guide-intro {
+    font-size: 16px;
+  }
+
+  .guide-steps {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+
+  .guid-h1 {
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+
+  .spacer-red {
+    height: 2px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  .button {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .content {
+    padding: 100px 100px 70px;
+  }
+
+  .content-h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+
+  .content-idea-h1 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+
+  .content-p {
+    font-size: 16px;
+  }
+
+  .buttons {
+    margin-top: 30px;
+  }
+
+  .ideablock {
+    padding: 50px 100px 0px;
+  }
+
+  .popularRoutes {
+    padding: 30px 100px 20px;
+  }
+
+  .spacer {
+    height: 3px;
+    border: 2px dashed #0d1321;
+    margin-bottom: 30px;
+  }
+
+  .popularRoutes-h1 {
+    font-size: 28px;
+    padding-bottom: 15px;
+  }
+
+  .largeRoute img {
+    width: 280px;
+  }
+
+  .smallRoutes img {
+    width: 210px;
+  }
+
+  .routeSmallDescription {
+    top: 85px;
+    padding: 7px;
+  }
+  .routeLargeDescription {
+    top: 100px;
+    padding: 10px;
+  }
+
+  .routeTitle {
+    font-size: 14px;
+  }
+
+  .routeLargeTitle {
+    font-size: 18px;
+  }
+
+  .routeText {
+    font-size: 10px;
+  }
+
+  .routeLargeText {
+    font-size: 14px;
+  }
+
+  .routeTextDescription {
+    margin: 15px 0px 0;
+    font-size: 16px;
+  }
+
+  .guideBlock {
+    padding: 30px 100px 18px;
+    margin-top: 20px;
+  }
+
+  .guide-intro {
+    font-size: 20px;
+  }
+
+  .guide-steps {
+    padding-left: 15px;
+    font-size: 16px;
+  }
+
+  .guid-h1 {
+    font-size: 28px;
+    padding-bottom: 30px;
+  }
+
+  .spacer-red {
+    height: 2px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .content {
+    padding: 150px 120px 110px;
+  }
+
+  .content-h1 {
+    font-size: 36px;
+    padding-bottom: 35px;
+  }
+
+  .content-idea-h1 {
+    font-size: 34px;
+    padding-bottom: 10px;
+  }
+
+  .content-p {
+    font-size: 18px;
+  }
+
+  .buttons {
+    margin-top: 40px;
+  }
+
+  .ideablock {
+    padding: 60px 120px 0px;
+  }
+
+  .popularRoutes {
+    padding: 60px 120px 20px;
+  }
+
+  .spacer {
+    height: 3px;
+    border: 2px dashed #0d1321;
+    margin-bottom: 35px;
+  }
+
+  .popularRoutes-h1 {
+    font-size: 34px;
+    padding-bottom: 20px;
+  }
+
+  .largeRoute img {
+    width: 300px;
+  }
+
+  .smallRoutes img {
+    width: 240px; 
+  }
+
+  .routeSmallDescription {
+    top: 105px;
+    padding: 7px;
+  }
+  .routeLargeDescription {
+    top: 120px;
+    padding: 10px;
+  }
+
+  .routeTitle {
+    font-size: 14px;
+  }
+
+  .routeLargeTitle {
+    font-size: 18px;
+  }
+
+  .routeText {
+    font-size: 10px;
+  }
+
+  .routeLargeText {
+    font-size: 14px;
+  }
+
+  .routeTextDescription {
+    margin: 15px 0px 0;
+    font-size: 16px;
+  }
+
+  .guideBlock {
+    padding: 60px 120px 40px;
+    margin-top: 30px;
+  }
+
+  .guide-intro {
+    font-size: 20px;
+  }
+
+  .guide-steps {
+    padding-left: 15px;
+    font-size: 16px;
+  }
+
+  .guid-h1 {
+    font-size: 34px;
+    padding-bottom: 30px;
+  }
+
+  .spacer-red {
+    height: 2px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  .button {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1540px) {
+  .content {
+    padding: 150px 20% 110px;
+  }
+}

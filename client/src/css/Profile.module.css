@@ -1,0 +1,357 @@
+
+.profileContainer {
+  margin: 50px 0;
+  padding: 0px 220px 40px;
+  font-family: "Geologica", sans-serif;
+  align-items: center;
+  
+}
+
+.logoutbutton button {
+  padding-top: 20px;
+}
+.textCorrect{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px ;
+}
+
+.textCorrect p {
+  margin-right: 20px;
+}
+.textCorrect textarea {
+  margin-right: 20px;
+
+}
+
+.profileContainer h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.profileContainer h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.profileContainer p {
+  color: #000000;
+}
+.profileContainer h3{
+  color: #000000;
+}
+.userProfile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.routesContainer {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  );   grid-gap: 20px; 
+}
+
+.routeCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  justify-content: space-between;
+  padding: 13px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.routeImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  margin-right: 20px;
+}
+
+.profileContainer p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.profileContainer button {
+  padding: 8px 20px;
+  font-family: "Geologica", sans-serif;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profileContainer button:hover {
+  background-color: #372f2f;
+}
+
+.addButton {
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 200;
+  font-family: "Geologica", sans-serif;
+}
+
+.delButton {
+  font-weight: 300;
+}
+
+
+
+@media screen and (max-width: 480px){ 
+  
+.profileContainer {
+  margin: 20px 0;
+  padding: 0px 50px 20px;  
+}
+
+.logoutbutton button {
+  padding-top: 10px;
+}
+
+.textCorrect p {
+  margin-right: 8px;
+}
+.textCorrect textarea {
+  margin-right: 10px;
+
+}
+.profileContainer h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.profileContainer h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.userProfile {
+  margin-bottom: 15px;
+}
+
+.profileContainer h3{
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  margin-right: 10px;
+}
+
+.profileContainer p {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.profileContainer button {
+  padding: 3px 10px;
+  font-size: 10px;
+}
+
+.addButton {
+  margin-top: 30px;
+  font-size: 12px;}
+
+.delButton {
+  font-weight: 300;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+  
+.profileContainer {
+  margin: 30px 0;
+  padding: 0px 60px 20px;  
+}
+
+.logoutbutton button {
+  padding-top: 14px;
+}
+
+.textCorrect p {
+  margin-right: 10px;
+}
+.textCorrect textarea {
+  margin-right: 14px;
+
+}
+.profileContainer h1 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.profileContainer h2 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.userProfile {
+  margin-bottom: 20px;
+}
+.routesContainer {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(170px, 1fr)
+  ); 
+  grid-gap: 20px; 
+}
+
+.profileContainer h3{
+  font-size: 18px;
+  font-weight: bold;
+}
+.avatar {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%; 
+  margin-right: 10px;
+}
+
+.profileContainer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.profileContainer button {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .profileContainer {
+    margin: 30px 0;
+    padding: 0px 100px 20px;  
+  }
+  
+  .logoutbutton button {
+    padding-top: 14px;
+  }
+  
+  .textCorrect p {
+    margin-right: 14px;
+  }
+  .textCorrect textarea {
+    margin-right: 14px;
+  
+  }
+  .profileContainer h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .profileContainer h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .userProfile {
+    margin-bottom: 20px;
+  }
+  .routesContainer {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(170px, 1fr)
+    ); 
+    grid-gap: 20px; 
+  }
+  
+  .profileContainer h3{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%; 
+    margin-right: 10px;
+  }
+  
+  .profileContainer p {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .profileContainer button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+  .profileContainer {
+    margin: 30px 0;
+    padding: 0px 100px 20px;  
+  }
+  
+  .logoutbutton button {
+    padding-top: 14px;
+  }
+  
+  .textCorrect p {
+    margin-right: 14px;
+  }
+  .textCorrect textarea {
+    margin-right: 14px;
+  
+  }
+  .profileContainer h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .profileContainer h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .userProfile {
+    margin-bottom: 20px;
+  }
+  .routesContainer {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(200px, 1fr)
+    ); 
+    grid-gap: 20px; 
+  }
+  
+  .profileContainer h3{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profileContainer p {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .profileContainer button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  
+}
+@media screen and (min-width: 1540px){
+  .profileContainer {
+    margin: 30px 0;
+    padding: 0px 20% 20px;  
+  }
+}

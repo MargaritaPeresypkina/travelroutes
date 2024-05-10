@@ -1,0 +1,470 @@
+
+
+.routeContainer {
+  margin: 70px 0;
+  padding: 0 220px;
+  font-family: "Geologica", sans-serif;
+}
+.loginname {
+  display: flex;
+  flex-direction: row;
+}
+.loginname h3 {
+  margin-right: 10px;
+}
+.routeTitle {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.routeInfo {
+  display: flex;
+  align-items: center;
+}
+
+.routeImage {
+  width: 320px;
+  height: 220px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.routeDescription {
+  font-size: 16px;
+}
+.routeDescription p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.companionsTitle {
+  font-size: 35px;
+  margin: 30px 0;
+}
+
+.companionsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.companion {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: rgb(231, 231, 231);
+  padding: 10px 40px 10px 10px;
+  border-radius: 10px;
+}
+.companionImageContainer {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  margin-right: 30px;
+  border-radius: 20%;
+}
+
+.companionImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.companionInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+}
+
+.compInfo {
+  width: 75%;
+}
+
+.companionName {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.companionDescription {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.cancelButton {
+  background-color: #1e1817;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Geologica", sans-serif;
+}
+
+.inviteButton {
+  background-color: #1d201d;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Geologica", sans-serif;
+}
+
+
+@media screen  and (max-width: 480px){ 
+.routeContainer {
+  margin: 40px 0;
+  padding: 0 50px;
+}
+.loginname {
+  display: flex;
+  flex-direction: column;
+}
+.loginname h3 {
+  margin-right: 10px;
+}
+.routeTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.routeInfo {
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.routeImage {
+  width: 220px;
+  height: 100%;
+  margin-right: 0px;
+}
+
+.routeDescription {
+  font-size: 13px;
+}
+.routeDescription p {
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.companionsTitle {
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.companion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  width: 80%;
+  
+}
+.companionImageContainer {
+  width: 110px;
+  height: 110px;
+  margin-right: 0px;
+  border-radius: 20%;
+  margin-bottom: 10px;
+}
+
+.companionImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.companionInfo {
+  flex-direction: column;
+}
+
+.compInfo {
+  width: 85%;
+}
+
+.companionName {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.companionDescription {
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.cancelButton {
+  font-size: 12px;
+  padding: 4px 10px;
+}
+
+.inviteButton {
+  margin-top: 20px;
+  padding: 7px 14px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+  .routeContainer {
+    margin: 50px 0;
+    padding: 0 80px;
+  }
+  .routeTitle {
+    font-size: 34px;
+    margin-bottom: 24px;
+  }
+  
+  .routeInfo {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .routeImage {
+    width: 320px;
+    height: 100%;
+    margin-right: 0px;
+  }
+  
+  .routeDescription {
+    font-size: 15px;
+  }
+  .routeDescription p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .companionsTitle {
+    font-size: 34px;
+    margin: 30px 0;
+  }
+  
+  .companion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    width: 70%;
+    
+  }
+  .companionImageContainer {
+    width: 110px;
+    height: 110px;
+    margin-right: 0px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+  }
+  
+  .companionImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .companionInfo {
+    flex-direction: column;
+  }
+  
+  .compInfo {
+    width: 85%;
+  }
+  
+  .companionName {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .companionDescription {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+  
+  .cancelButton {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+  
+  .inviteButton {
+    margin-top: 20px;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .routeContainer {
+    margin: 50px 0;
+    padding: 0 120px;
+  }
+  .routeTitle {
+    font-size: 36px;
+    margin-bottom: 26px;
+  }
+  
+  .routeInfo {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .routeImage {
+    width: 520px;
+    height: 100%;
+    margin-right: 0px;
+  }
+  
+  .routeDescription {
+    font-size: 17px;
+  }
+  .routeDescription p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .companionsTitle {
+    font-size: 36px;
+    margin: 30px 0;
+  }
+  
+  .companion {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 30px 10px 10px;
+    border-radius: 10px;
+    
+  }
+
+  
+  .companionImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .compInfo {
+    width: 85%;
+  }
+  
+  .companionName {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .companionDescription {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+  
+  .cancelButton {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+  
+  .inviteButton {
+    margin-top: 20px;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+  .routeContainer {
+    margin: 50px 0;
+    padding: 0 180px;
+  }
+  .routeTitle {
+    font-size: 40px;
+    margin-bottom: 26px;
+  }
+  
+  .routeInfo {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .routeImage {
+    width: 650px;
+    height: 100%;
+    margin-right: 0px;
+  }
+  
+  .routeDescription {
+    font-size: 24px;
+  }
+  .routeDescription p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .companionsTitle {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+  
+  .companion {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 30px 10px 10px;
+    border-radius: 10px;
+    
+  }
+
+  .companionImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+  
+  .compInfo {
+    width: 85%;
+  }
+  
+  .companionName {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .companionDescription {
+    font-size: 14px;
+    margin-bottom: 7px;
+  }
+  
+  .cancelButton {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+  
+  .inviteButton {
+    margin-top: 20px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+}
+@media screen and (min-width: 1540px){
+  .routeContainer {
+    margin: 50px 0;
+    padding: 0 20%;
+  }
+}
